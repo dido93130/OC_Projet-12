@@ -1,0 +1,68 @@
+@font-face
+{
+  font-family: 'CinzelDecorative-Bold';
+  src: url('CinzelDecorative-Bold.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+img {
+  float: right;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+  width: 5%;
+  margin: 0;
+} 
+
+body {
+ background: url(getfile.jpg) center/cover;
+ font-family: 'Arial', sans-serif;
+}
+
+h1 {
+ font-family: 'CinzelDecorative-Bold', sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+ display: block;
+ vertical-align: text-top;
+ font-weight: bold;
+
+}
+
+h2 {
+  display: flex;
+  vertical-align: text-top;
+  justify-content: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  color:darkblue;
+  text-align: center;
+}
+
+#liseret, #contenu
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#liseret {
+    width: 10%;
+    margin-right: 3%;
+    height: 500px;
+    background: url(lodyas.png);
+    border-radius: 10px;
+}
+
+#contenu
+{
+  width: 85%;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+  }
