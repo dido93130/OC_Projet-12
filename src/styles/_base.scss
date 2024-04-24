@@ -1,0 +1,66 @@
+@import './variables';
+
+/* GENERAL */
+
+body {
+    font-family: $body-font;       
+}
+
+.title {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+section {
+    padding: 45px 0 80px 0;    
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+
+    h2 {
+        text-transform: uppercase;
+    }
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: $color-primary;
+    margin: 0 auto 20px;
+}
+
+.white-divider {
+    width: 100px;
+    height: 2px;
+    background: $color-white;
+    margin: 0 auto 20px;
+}
+
+.button1 {
+    font-weight: bold;
+    color: $color-white;
+    text-transform: uppercase;
+    border: 1px solid $color-white;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+
+    &:hover {
+        background: $color-white;
+        color: $color-primary;
+    }
+}

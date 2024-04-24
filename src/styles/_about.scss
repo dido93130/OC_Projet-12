@@ -1,0 +1,17 @@
+@import './variables';
+
+/* ABOUT */
+#about {    
+    background-color: $color-primary;
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 57px auto 30px;
+}   
+
+#about .heading h1 {
+    color: $color-white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

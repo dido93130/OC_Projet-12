@@ -1,0 +1,22 @@
+@import './variables';
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+
+footer span {
+    color: $color-primary;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+footer span:hover {
+    font-size: 27px;
+}
+
+footer h5 {
+    color: $color-white;
+    font-weight: normal;
+}

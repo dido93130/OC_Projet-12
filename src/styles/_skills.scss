@@ -1,0 +1,29 @@
+@import './variables';
+
+/* SKILLS */
+#skills .heading h2 {
+    color: $color-primary;
+}
+
+#skills .progress {
+    height: 45px;
+    margin: 30px 20px;
+    position: relative;    
+}
+
+#skills .progress:last-child {
+    margin-bottom: 0px;
+}
+
+#skills .progress-bar {
+    background-color: $color-primary;    
+}
+
+
+.skill-label { 
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 3px;    
+}
