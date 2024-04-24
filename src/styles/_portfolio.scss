@@ -25,7 +25,7 @@
 }    
 
 #portfolio .col-md-4 {
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 /* RECOMMANDATIONS */
@@ -43,9 +43,11 @@
 }
 
 #my-tooltip {
-    display: flex;    
-    background-color: $color-white;
+    display: flex;         
+    background-color: #e9ecef;
     font-size: 16px;
-    color: black;
-    border-radius: 5px;    
+    color: red;
+    border-radius: 5px;     
+    
+    white-space: pre-wrap; /* Permet aux espaces de rupture de ligne */  
 }

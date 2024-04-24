@@ -53,22 +53,29 @@ const Portfolio = () => {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <a href=" /OC_Projet-12/projets/Booki/index.html" target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content="Project 3 OpenClassroom  - Booki -
-             Créez la page d'accueil d'une agence de voyage avec HTML & CSS">
+            <a href=" /OC_Projet-12/projets/Booki/index.html" target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content="Project 3 OpenClassroom:  Booki 
+             Créez la page d'accueil d'une agence de voyage avec HTML & CSS
+            - capacité à créer des interfaces web responsives
+            - intégrer des maquettes avec précision en utilisant HTML et CSS">
               <img src="images/Booki.webp" className="img-thumbnail" alt="site Booki" />
             </a>
             <Tooltip id="my-tooltip" />
           </div>
           <div className="col-md-4">
-            <a href=" /OC_Projet-12/projets/OhMyFood/index.html" target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content="Project 4 OpenClassroom  - Ohmyfood -
-               Améliorez l'interface d'un site mobile avec des animations CSS">
-              <img src="images/OhMyFood.webp" className="img-thumbnail" alt="site Ohmyfood" />
-              <Tooltip id="my-tooltip" />  
+            <a href=" /OC_Projet-12/projets/OhMyFood/index.html" target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content="Project 4 OpenClassroom:   Ohmyfood 
+               Améliorez l'interface d'un site mobile avec des animations CSS
+              - capacité à créer des interfaces web mobile-first
+              - maîtrise de Sass pour structurer et optimiser le CSS
+              - capacité à utiliser Git et GitHub pour la gestion de version et la collaboration sur des projets" className="tooltip-multiline">
+              <img src="images/OhMyFood.webp" className="img-thumbnail" alt="site Ohmyfood" />               
             </a>
+            <Tooltip id="my-tooltip" /> 
           </div>
           <div className="col-md-4">
-            <a href=" /OC_Projet-12/projets/Print-it/index.html" target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content="Project 5 OpenClassroom  - Print it -
-               site internet statique d'une imprimerie avec un carrousel interactif - JAVASCRIPT">
+            <a href=" /OC_Projet-12/projets/Print-it/index.html" target="_blank" data-tooltip-id="my-tooltip"  data-tooltip-content="Project 5 OpenClassroom:  Print it: 
+               Site internet statique d'une imprimerie avec un carrousel interactif 
+              - Savoir programmer en JavaScript
+              - capacité à combiner JavaScript avec HTML et CSS">
               <img src="images/Print-it.webp" className="img-thumbnail" alt="site Print-it" />
             </a>
             <Tooltip id="my-tooltip" />
