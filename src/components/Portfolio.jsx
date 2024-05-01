@@ -80,10 +80,10 @@ const Portfolio = () => {
   );
 };
 
-const PortfolioItem = ({ imagePath, projectUrl, tooltipContent }) => {
+const PortfolioItem = ({ imagePath, projectUrl, tooltipContent, onClick }) => {
   return (
     <div className="col-md-4 portfolio-col">
-      <a href={projectUrl} target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content={tooltipContent}>
+       <a href={projectUrl} onClick={onClick} target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content={tooltipContent}>
         <img src={imagePath} className="img-thumbnail" alt={tooltipContent} />
       </a>
       <Tooltip id="my-tooltip" />

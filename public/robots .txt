@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Sitemap: https://dido93130.github.io/OC_Projet-12/sitemap.xml
