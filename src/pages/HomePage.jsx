@@ -11,7 +11,7 @@ const HomePage = () => {
   
     return (
       <div> {/* Conteneur principal de la page d'accueil */}
-        <main className="main" data-bs-spy="scroll" data-bs-target="#myNavbar"> {/* Section principale de la page */} 
+        <main className="main"> {/* Section principale de la page */} 
            <About />          
            <Skills />          
            <Experience />          

@@ -64,3 +64,15 @@ section .heading {
         color: $color-primary;
     }
 }
+
+.first-color {
+  color: $color-primary;
+}
+
+.second-color {
+    color: $color-white;
+}
+
+.hidden {
+    visibility: hidden;
+}

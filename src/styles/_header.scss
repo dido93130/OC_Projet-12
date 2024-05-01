@@ -1,6 +1,7 @@
 @import './variables';
 
-/* NAVBAR */
+/* HEADER */
+
 .navbar {
     position: fixed;
     z-index: 999;
@@ -9,21 +10,21 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
-    border-bottom: 1px solid $color-white;   
-}
-
-.navbar-nav {
-    margin: 0 auto;
-    text-align: center;
+    border-bottom: 1px solid $color-white;
+    &-nav {
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 .nav-link {
     color: $color-white !important;
     margin: 0 6px;
+        
+    &.active,
+    &:hover {
+     background-color: $color-white;
+     color: $color-primary !important;     
+    }
 }
 
-.nav-link.active,
-.nav-link:hover {
-    background-color: $color-white;
-    color: $color-primary !important;
-}

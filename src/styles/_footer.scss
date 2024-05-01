@@ -1,22 +1,22 @@
 @import './variables';
 
 /* FOOTER */
-footer {
+
+.footer {
     background-color: #333;
     padding: 20px 0 40px;
+    text-align: center;
+    &-title {
+        color: $color-white;
+        font-weight: normal;
+    }
 }
 
-footer span {
+.bi-chevron-up {
     color: $color-primary;
     font-size: 25px;
     line-height: 35px;
-}
-
-footer span:hover {
-    font-size: 27px;
-}
-
-footer h5 {
-    color: $color-white;
-    font-weight: normal;
+    &:hover {
+        font-size: 32px;
+    }
 }
