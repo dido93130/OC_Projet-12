@@ -1,0 +1,16 @@
+[
+    {
+      "date": "2023-2024",
+      "school": "OpenClassroom",
+      "course": "Formation Intégrateur Web",
+      "topics": ["HTML/CSS", "SCSS", "Javascript", "REACT"],
+      "description": "Responsive and UX Design"
+    },
+    {
+      "date": "2022",
+      "school": "Udemi",
+      "course": "Formation Développeur Web",
+      "topics": ["HTML/CSS", "Javascript", "JQuery", "PHP", "SQL"],
+      "description": "Responsive Design"
+    }
+  ]

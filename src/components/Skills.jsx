@@ -2,6 +2,7 @@
 
 import React from 'react';
 import SkillProgressBar from './SkillProgressBar';
+import skillsData from '../data/skillsData.json'; // Importez les données JSON
 
 const Skills = () => {
   return (
@@ -13,18 +14,22 @@ const Skills = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <SkillProgressBar label="HTML" percentage={95} />
-            <SkillProgressBar label="CSS" percentage={95} />
-            <SkillProgressBar label="JavaScript" percentage={90} />
-            <SkillProgressBar label="React" percentage={90} />
-            <SkillProgressBar label="Figma" percentage={90} />
+            {skillsData.slice(0, 5).map((skill, index) => (
+              <SkillProgressBar
+                key={index}
+                label={skill.label}
+                percentage={skill.percentage}
+              />
+            ))}
           </div>
           <div className="col-lg-6">
-            <SkillProgressBar label="jQuery" percentage={85} />
-            <SkillProgressBar label="Bootstrap" percentage={80} />
-            <SkillProgressBar label="PHP" percentage={75} />
-            <SkillProgressBar label="SCSS" percentage={90} />
-            <SkillProgressBar label="Git/GitHub" percentage={92} />
+            {skillsData.slice(5).map((skill, index) => (
+              <SkillProgressBar
+                key={index}
+                label={skill.label}
+                percentage={skill.percentage}
+              />
+            ))}
           </div>
         </div>
       </div>

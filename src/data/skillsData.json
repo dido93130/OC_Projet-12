@@ -1,0 +1,12 @@
+[
+    { "label": "HTML", "percentage": 95 },
+    { "label": "CSS", "percentage": 95 },
+    { "label": "JavaScript", "percentage": 90 },
+    { "label": "React", "percentage": 90 },
+    { "label": "Figma", "percentage": 90 },
+    { "label": "jQuery", "percentage": 85 },
+    { "label": "Bootstrap", "percentage": 80 },
+    { "label": "PHP", "percentage": 75 },
+    { "label": "SCSS", "percentage": 90 },
+    { "label": "Git/GitHub", "percentage": 92 }
+  ]

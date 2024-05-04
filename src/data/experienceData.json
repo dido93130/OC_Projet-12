@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Intégrateur Web",
+      "subtitle": "Intégrateur Web",
+      "duration": "2023-2024",
+      "description": "Formation Intégrateur web OpenClassroom"
+    },
+    {
+      "title": "Développeur Web",
+      "subtitle": "Développeur Web junior",
+      "duration": "2020-2022",
+      "description": "Création de site web responsive adapté au mobile"
+    },
+    {
+      "title": "Auto-entrepreneur dans la maintenance informatique",
+      "subtitle": "Technicien informatique",
+      "duration": "2009-2011",
+      "description": "Entretien et mise en service d'un parc informatique"
+    },
+    {
+      "title": "Electricien",
+      "subtitle": "Electricien de maintenance",
+      "duration": "2007-2009",
+      "description": "Réalisation, maintenance, modification d'installations électriques"
+    }    
+  ]

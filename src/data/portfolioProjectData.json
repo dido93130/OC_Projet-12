@@ -1,0 +1,50 @@
+{
+    "items": [
+      {
+        "imagePath": "images/serpent.webp",
+        "projectUrl": "/OC_Projet-12/projets/Projet_Snake/index.html",
+        "tooltipContent": "Jeu du Serpent - JAVASCRIPT"
+      },
+      {
+        "imagePath": "images/voyage.webp",
+        "projectUrl": "/OC_Projet-12/projets/TravelAgency/index%20.html",
+        "tooltipContent": "Site d'une agence de voyage - HTML & CSS"        
+      },
+      {
+        "imagePath": "images/actrices.webp",
+        "projectUrl": "/OC_Projet-12/projets/Top_actrices/index.html",
+        "tooltipContent": "Site top actrices - HTML & CSS"
+      },
+      {
+        "imagePath": "images/burger.webp",
+        "projectUrl": "/OC_Projet-12/projets/BurgerCode/index.html",
+        "tooltipContent": "Site de vente de burger - PHP"
+      },
+      {
+        "imagePath": "images/burger_admin.webp",
+        "projectUrl": "#",
+        "tooltipContent": "Site de vente de burger - Page administrateur - PHP",
+        "onClick": true
+      },
+      {
+        "imagePath": "images/zozor.webp",
+        "projectUrl": "/OC_Projet-12/projets/SITE/index.html",
+        "tooltipContent": "Site basique - HTML & CSS"
+      },
+      {
+        "imagePath": "images/Booki.webp",
+        "projectUrl": "/OC_Projet-12/projets/Booki/index.html",
+        "tooltipContent": "Projet 3 OpenClassroom:  Booki\nCréez la page d'accueil d'une agence de voyage avec HTML & CSS\n- capacité à créer des interfaces web responsives\n- intégrer des maquettes avec précision en utilisant HTML et CSS"
+      },
+      {
+        "imagePath": "images/Print-it.webp",
+        "projectUrl": "/OC_Projet-12/projets/OhMyFood/index.html",
+        "tooltipContent": "Projet 4 OpenClassroom:   Ohmyfood\nAméliorez l'interface d'un site mobile avec des animations CSS\n- capacité à créer des interfaces web mobile-first\n- maîtrise de Sass pour structurer et optimiser le CSS\n- capacité à utiliser Git et GitHub pour la gestion de version et la collaboration sur des projets"
+      },
+      {
+        "imagePath": "images/actrices.webp",
+        "projectUrl": "/OC_Projet-12/projets/Top_actrices/index.html",
+        "tooltipContent": "Projet 5 OpenClassroom:  Print it:\nSite internet statique d'une imprimerie avec un carrousel interactif\n- Savoir programmer en JavaScript\n- capacité à combiner JavaScript avec HTML et CSS"
+      }      
+    ]
+  }
