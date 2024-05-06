@@ -10,8 +10,8 @@ const About = () => {
         </div>         
         <div className="heading second-color">
           <h1 className='title about-title'>Bonjour, c'est moi Eddy</h1>
-          <h3 className='title about-subtitle'>Développeur Web</h3>          
-          <a href="doc/CV_EDDY.pdf" className="button1">Télécharger CV</a> 
+          <h2 className='title about-subtitle'>Développeur Web</h2>          
+          <a href="doc/CV_EDDY.pdf" aria-label="lien de mon CV" className="button1">Télécharger CV</a> 
           <Social />        
         </div> 
        

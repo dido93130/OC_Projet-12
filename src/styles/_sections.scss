@@ -16,6 +16,7 @@
 
     &-subtitle {
         color: black;
+        font-size: 23px;        
     }
 
     &-container {
@@ -28,12 +29,14 @@
             flex: 0 0 calc(33.33% - 20px);
             margin: 10px;
             box-sizing: border-box;
-            width: 100%; // Assurez-vous que l'image occupe toute la largeur du conteneur
+            width: 100%;
+            object-fit: cover; 
             height: auto; // Hauteur automatique pour maintenir le ratio
             border-radius: 50%; // Bordure arrondie pour créer un cercle
 
             @media (max-width: 992px) {
                 flex: 0 0 calc(50% - 20px);
+                width: 50%;
             }
             
             @media (max-width: 768px) {
@@ -63,6 +66,12 @@
 
 /* SKILLS */
 
+.skills {
+   .heading {
+      text-transform: uppercase;
+   }
+}
+
 .skills-progress {
     height: 45px;
     margin: 30px 20px;
@@ -79,6 +88,7 @@
             position: absolute;
             text-shadow: 2px 2px 2px #000;
             margin-bottom: 3px;
+            font-size: 20px;
         }   
     }  
 }
@@ -87,6 +97,10 @@
 
 .experience {
     background-color: $color-primary;
+
+    .heading {
+        text-transform: uppercase;
+     }
 }
 
 .timeline {
@@ -207,6 +221,11 @@
 /* EDUCATION */
 
 .education {
+
+    .heading {
+        text-transform: uppercase;
+    }
+
     &-title {
       margin: 15px 0;
     }
@@ -230,7 +249,7 @@
       }
   
       &-frtitle {
-        color: #888;
+        color: #000;
         font-size: 15px;
         margin-bottom: 15px;
       }
@@ -241,12 +260,14 @@
   
       &-setitle {
         margin: 15px 0;
-        color: $color-primary; 
+        color: $color-primary;
+        font-size: 28px; 
       }
   
       &-thtitle {
         margin-bottom: 20px;
         font-weight: normal;
+        font-size: 24px;
       }
     }
   }
@@ -255,6 +276,11 @@
 
 .portfolio {
     background: $color-primary;
+
+    .heading {
+        text-transform: uppercase;
+    }
+
    &-col {
         margin-bottom: 20px;    
    }
@@ -262,18 +288,18 @@
 
 .img-thumbnail {
     display: flex;
+    object-fit: cover;
     width: 100%;    
     height: 340px;
         
     filter: grayscale(100%);    
      @media (max-width: 768px){
        height: 300px;
-     }  
-}
-
-.img-thumbnail:hover {
+     }
+   &:hover {
     filter: none;
-}    
+   }    
+} 
 
 #my-tooltip {
     display: flex; 
@@ -289,7 +315,13 @@
 /* CONTACT */
 
 #contact {
+
     background: $color-primary;
+
+    .heading {
+        text-transform: uppercase;
+    }
+
     &-form {
         font-size: 20px;
         color: $color-white;

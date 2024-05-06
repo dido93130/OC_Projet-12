@@ -15,10 +15,10 @@ const Education = () => {
           {educationData.map((item, index) => (
             <div key={index} className="col-md-6">
               <div className="education-block">
-                <h5 className='title education-block-frtitle'>{item.date}</h5>
+                <h3 className='title education-block-frtitle'>{item.date}</h3>
                 <span className="bi-award-fill education-block-badge"></span>
-                <h3 className='title education-block-setitle'>{item.school}</h3>
-                <h4 className='title education-block-thtitle'>{item.course}</h4>
+                <h4 className='title education-block-setitle'>{item.school}</h4>
+                <h5 className='title education-block-thtitle'>{item.course}</h5>
                 <div className="divider"></div>
                 <p>{item.topics.join(', ')}</p>
                 <p>{item.description}</p>

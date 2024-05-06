@@ -2,10 +2,7 @@ import { Tooltip } from 'react-tooltip';
 import portfolioProjectData from '../data/portfolioProjectData.json';
 
 const Portfolio = () => {
-  const handleItemClick = (event) => {
-    event.preventDefault();
-  };
-
+  
   return (
     <section id='portfolio' className='portfolio'>
       <div className="container">
@@ -19,8 +16,7 @@ const Portfolio = () => {
               key={index}
               imagePath={item.imagePath}
               projectUrl={item.projectUrl}
-              tooltipContent={item.tooltipContent}
-              onClick={item.onClick ? handleItemClick : undefined} // Pass onClick only if needed
+              tooltipContent={item.tooltipContent}              
             />
           ))}
         </div>
@@ -32,7 +28,7 @@ const Portfolio = () => {
 const PortfolioItem = ({ imagePath, projectUrl, tooltipContent, onClick }) => {
   return (
     <div className="col-md-4 portfolio-col">
-      <a href={projectUrl} onClick={onClick} target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content={tooltipContent}>
+      <a href={projectUrl} target="_blank" data-tooltip-id="my-tooltip" data-tooltip-content={tooltipContent}>
         <img src={imagePath} className="img-thumbnail" alt={tooltipContent} />
       </a>
       <Tooltip id="my-tooltip" />
