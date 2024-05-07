@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="white-divider"></div>
         <div className="heading">
           <h2 className='title second-color'>Contact</h2>
-        </div>
+       </div>
         <div className="row">
           <div className="col-lg-8 col-lg-offset-1" style={{ margin: 'auto' }}>
             <form id="contact-form" method="post" action="php/contact.php">

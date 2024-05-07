@@ -11,13 +11,14 @@
         font-weight: normal;
         font-size: 20px;
     }
-}
 
-.bi-chevron-up {
+
+ .bi-chevron-up {
     color: $color-primary;
     font-size: 25px;
     line-height: 35px;
     &:hover {
         font-size: 32px;
     }
+ }
 }

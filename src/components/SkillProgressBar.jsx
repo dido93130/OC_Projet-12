@@ -1,3 +1,5 @@
+//SkillProgressBar
+
 import React from 'react';
 
 const SkillProgressBar = ({ label, percentage }) => {

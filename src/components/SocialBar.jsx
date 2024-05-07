@@ -1,3 +1,5 @@
+//SocialBar
+
 import React from 'react';
 
 const SocialBar = () => {

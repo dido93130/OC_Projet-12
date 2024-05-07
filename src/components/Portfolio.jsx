@@ -1,8 +1,9 @@
+//Portfolio
+
 import { Tooltip } from 'react-tooltip';
 import portfolioProjectData from '../data/portfolioProjectData.json';
 
-const Portfolio = () => {
-  
+const Portfolio = () => {  
   return (
     <section id='portfolio' className='portfolio'>
       <div className="container">

@@ -1,3 +1,5 @@
+//TimelineItem
+
 import React from 'react';
 
 const TimelineItem = ({ title, subtitle, duration, description, inverted }) => {
